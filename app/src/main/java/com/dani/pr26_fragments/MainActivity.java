@@ -33,6 +33,9 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.settings:
                     replaceFragment(new SettingsFragment());
                     break;
+                case R.id.sensors:
+                    replaceFragment(new SensorFragment());
+                    break;
             }
 
 
