@@ -6,13 +6,6 @@
     android:orientation="vertical"
     tools:context=".SensorFragment">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="X:"
-        android:textSize="24sp"
-        android:layout_marginTop="16dp"/>
 
     <TextView
         android:id="@+id/x"
@@ -22,13 +15,6 @@
         android:text="0"
         android:textSize="24sp" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Y:"
-        android:textSize="24sp"
-        android:layout_marginTop="16dp"/>
 
     <TextView
         android:id="@+id/y"
@@ -37,14 +23,6 @@
         android:text="0"
         android:textSize="24sp"
         android:layout_marginTop="8dp"/>
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Z:"
-        android:textSize="24sp"
-        android:layout_marginTop="16dp"/>
 
     <TextView
         android:id="@+id/z"
